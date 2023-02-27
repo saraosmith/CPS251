@@ -1,6 +1,8 @@
 <resources>
-    <string name="app_name">AddNameSaveData</string>
-    <string name="no_names_to_display">No Names To Display</string>
-    <string name="add_name">ADD NAME</string>
-    <string name="enter_name">Enter Name</string>
+    <string name="app_name">AddNameSaveData2</string>
+    <string name="no_names_to_display">No names to display</string>
+    <string name="add_name" />
+    <string name="enter_name" />
+    <string name="enter_name_">Enter Name</string>
+    <string name="add_name_">ADD NAME</string>
 </resources>

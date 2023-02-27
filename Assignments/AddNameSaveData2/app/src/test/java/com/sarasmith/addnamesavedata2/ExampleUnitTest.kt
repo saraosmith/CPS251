@@ -1,4 +1,4 @@
-package com.sarasmith.addnamesavedata
+package com.sarasmith.addnamesavedata2
 
 import org.junit.Test
 

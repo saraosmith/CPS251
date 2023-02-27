@@ -1,9 +1,8 @@
-package com.sarasmith.addnamesavedata
+package com.sarasmith.addnamesavedata2
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.sarasmith.addnamesavedata.ui.main.MainFragment
-import com.sarasmith.addnamesavedata2.R
+import com.sarasmith.addnamesavedata2.ui.main.MainFragment
 
 class MainActivity : AppCompatActivity() {
 
