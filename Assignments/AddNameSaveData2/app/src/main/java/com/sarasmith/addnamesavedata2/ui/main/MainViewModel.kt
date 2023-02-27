@@ -2,7 +2,6 @@ package com.sarasmith.addnamesavedata.ui.main
 
 import androidx.lifecycle.ViewModel
 
-
 class MainViewModel : ViewModel() {
     private var names = ""
 
