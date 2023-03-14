@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LifeCycleAware</string>
+    <string name="textview">TextView</string>
+    <string name="textview_">TextView</string>
+    <string name="mainfragment">MainFragment</string>
+    <string name="mainfragment_">MainFragment</string>
+    <string name="main_fragment">MainFragment</string>
+</resources>
