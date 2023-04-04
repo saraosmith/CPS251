@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RecycleviewIntents</string>
+    <string name="PlaceHolder" />
+    <string name="droid_image" />
+    <string name="place_holder_text">Place Holder Text</string>
+    <string name="place_holder_text_">Place Holder Text</string>
+</resources>
