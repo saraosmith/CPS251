@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ContactsProject</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_phone">Enter Phone</string>
+    <string name="addBtn">add</string>
+    <string name="findBtn">find</string>
+    <string name="ascBtn">asc</string>
+    <string name="descBtn">desc</string>
+    <string name="delete_icon" />
+    <string name="todo">todo</string>
+    <string name="not_assigned" />
+    <string name="enter_name_">Enter Name</string>
+    <string name="enter_phone_">Enter Phone</string>
+</resources>
