@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Contacts</string>
+    <string name="delete" />
+    <string name="dsc" />
+    <string name="asc" />
+    <string name="find" />
+    <string name="add" />
+    <string name="enter_phone" />
+    <string name="enter_name" />
+    <string name="enter_name_">Enter Name</string>
+    <string name="enter_phone_">Enter Phone</string>
+    <string name="add_">add</string>
+    <string name="find_">find</string>
+    <string name="asc_">asc</string>
+    <string name="desc_">desc</string>
+    <string name="delete_">delete</string>
+    <string name="enter_name__">Enter Name</string>
+    <string name="enter_phone__">Enter Phone</string>
+    <string name="add__">add</string>
+    <string name="find__">find</string>
+    <string name="asc__">asc</string>
+    <string name="desc__">desc</string>
+</resources>

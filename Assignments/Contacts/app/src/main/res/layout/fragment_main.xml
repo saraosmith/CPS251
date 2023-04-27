@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".ui.main.MainFragment">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/contactName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:ems="10"
+                android:hint="@string/enter_name__"
+                android:importantForAutofill="no"
+                android:inputType="none"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@+id/contactPhone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/contactPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:ems="10"
+                android:hint="@string/enter_phone__"
+                android:importantForAutofill="no"
+                android:inputType="phone"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@+id/findButton"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/contactName"
+                tools:ignore="TouchTargetSizeCheck" />
+        </TableRow>
+
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginStart="5dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/addButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:text="@string/add__"
+            app:layout_constraintBaseline_toBaselineOf="@+id/findButton"
+            app:layout_constraintEnd_toStartOf="@+id/findButton"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/findButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:text="@string/find__"
+            app:layout_constraintBottom_toTopOf="@+id/contact_recycler"
+            app:layout_constraintEnd_toStartOf="@+id/ascButton"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/addButton"
+            app:layout_constraintTop_toBottomOf="@+id/contactPhone" />
+
+        <Button
+            android:id="@+id/ascButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:text="@string/asc__"
+            app:layout_constraintBaseline_toBaselineOf="@id/findButton"
+            app:layout_constraintEnd_toStartOf="@+id/descButton"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/findButton" />
+
+        <Button
+            android:id="@+id/descButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:text="@string/desc__"
+            app:layout_constraintBaseline_toBaselineOf="@+id/ascButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/ascButton" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/contact_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="524dp"
+        android:layout_margin="10dp" />
+</LinearLayout>
